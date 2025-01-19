@@ -81,7 +81,7 @@ namespace JournalApp
         {
             try
             {
-                entries.Clear(); // Clear existing entries before loading
+                entries.Clear(); 
                 using (StreamReader reader = new StreamReader(filename))
                 {
                     string line;
