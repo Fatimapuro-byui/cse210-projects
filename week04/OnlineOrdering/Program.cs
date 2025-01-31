@@ -8,6 +8,10 @@ class Program
         Product product1 = new Product("Dark Chocolate Bar", 101, 3.5, 2);
         Product product2 = new Product("Chocolate Box", 102, 10.0, 1);
         Product product3 = new Product("Chocolate Chip Cookies", 103, 4.5, 3);
+        Product product4 = new Product("Milk Chocolate", 104, 5.5, 4);
+        Product product5 = new Product("White Chocolate", 105, 6.5, 5);
+
+
 
         
         Address address1 = new Address("549 Main St", "Salt Lake City", "UT", "USA");
@@ -24,6 +28,10 @@ class Program
 
         Order order2 = new Order(customer2);
         order2.AddProduct(product3);
+        order2.AddProduct(product4);
+        order2.AddProduct(product5);
+
+
 
         
         Console.WriteLine("Order 1:");
